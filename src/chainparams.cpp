@@ -70,7 +70,7 @@ class CMainParams : public CChainParams {
 public:
     CMainParams() {
         strNetworkID = "main";
-        consensus.nSubsidyHalvingInterval = 1051200;
+        consensus.nSubsidyHalvingInterval = 225000;
         consensus.BIP34Height = 0;
         consensus.BIP34Hash = uint256S("ff9f1c0116d19de7c9963845e129f9ed1bfc0b376eb54fd7afa42e0d418c8bb6");
         consensus.BIP65Height = 977759;
@@ -121,14 +121,14 @@ public:
         nPruneAfterHeight = 100000;
         vAlertPubKey = ParseHex("04fc55d919cdea21e8171fea24c3cf23864ff64a53404829ad50af86e1be1b8217115701b348d50c6aaba6983bc148d3c9e6fa8c11365889774fc1db6da6840c06");
 
-        genesis = CreateGenesisBlock(1511875884, 1234534, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1511875884, 1249188, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         std::cout << genesis.ToString() << std::endl;
-        assert(consensus.hashGenesisBlock == uint256S("0xe869ec733d3aab2445cb4e1894eb4d8f86b42a87f3be54eedb799b1152082b31"));
+        assert(consensus.hashGenesisBlock == uint256S("0x673e0827377b53ca7cbc36b214729cb39eaa989a8f16974d0f95309c55e52d32"));
         assert(genesis.hashMerkleRoot == uint256S("0xbe67bff5de25ff1fb40569a5c380a11bd25b8600e0ce6414d7d8307ca3fabf5f"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.push_back(CDNSSeedData("monacoin.org", "dnsseed.monacoin.org"));
+//        vSeeds.push_back(CDNSSeedData("hanacoin.org", "dnsseed.hanacoin.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,50);  // M
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -222,7 +222,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.push_back(CDNSSeedData("monacoin.org", "testnet-dnsseed.monacoin.org"));
+        vSeeds.push_back(CDNSSeedData("hanacoin.org", "testnet-dnsseed.hanacoin.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
