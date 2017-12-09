@@ -1,7 +1,7 @@
 Hanacoin Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/Hanacoinproject/Hanacoin.svg?branch=master)](https://travis-ci.org/Hanacoinproject/Hanacoin)
+[![Build Status](https://travis-ci.org/hanacoinproject/hanacoin.svg?branch=master)](https://travis-ci.org/hanacoinproject/hanacoin)
 
 https://Hana.coin
 
@@ -21,16 +21,16 @@ Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/Hanacoinproject/Hanacoin/tags) are created
+completely stable. [Tags](https://github.com/hanacoinproject/hanacoin/tags) are created
 regularly to indicate new official, stable release versions of Hanacoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-The developer [mailing list](https://groups.google.com/forum/#!forum/Hanacoin-dev)
+The developer [mailing list](https://groups.google.com/forum/#!forum/hanacoin-dev)
 should be used to discuss complicated or controversial changes before working
 on a patch set.
 
-Developer IRC can be found on Freenode at #Hanacoin-dev.
+Developer IRC can be found on Freenode at #hanacoin-dev.
 
 Testing
 -------
