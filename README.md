@@ -3,13 +3,13 @@ Hanacoin Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/hanacoinproject/hanacoin.svg?branch=master)](https://travis-ci.org/hanacoinproject/hanacoin)
 
-https://Hana.coin
+https://www.hanacoin.com
 
 What is Hanacoin?
 ----------------
 
 Hanacoin is a digital currency that enables instant payments to anyone, anywhere in the world. Hanacoin uses peer-to-peer technology to operate with no central authority: managing transactions and issuing money are carried out collectively by the network. Hanacoin Core is the name of open source software which enables the use of this currency. Hanacoin donates coins to Korean charity each year.
-For more information see [https://hana.coin]( https://hana.coin).
+For more information see [https://www.hanacoin.com]( https://www.hanacoin.com).
 
 License
 -------
