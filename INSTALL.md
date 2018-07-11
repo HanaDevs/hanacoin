@@ -1,5 +1,5 @@
-Building Bitcoin
+Building Hanacoin
 ================
 
 See doc/build-*.md for instructions on building the various
-elements of the Bitcoin Core reference implementation of Bitcoin.
+elements of the Hanacoin Core reference implementation of Hanacoin.
